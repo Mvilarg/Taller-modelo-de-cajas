@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700;800&display=swap');
+
+/* Estilo General */
+body {
+    font-family: 'Lato', sans-serif; /* Tipografía por defecto */
+    background-color: #fcfcfc;
+    color: #2b2b2b;
+    line-height: 1.6; 
+    margin: 0;
+    padding: 20px;
+}
+
+/* Títulos con Montserrat */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1a365d;
+}
+
+/* 2. ENCABEZADO (Header) */
+header {
+    background-color: #1a365d;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+header h2 {
+    color: #f7fafc;
+    font-size: 1.2;
+    font-weight: 400;
+}
+
+header nav a {
+    color: #fbd38d; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* 3. SECCIÓN DE PRESENTACIÓN */
+#Presentacion h2 {
+    font-size: 2rem; 
+    font-style: normal; 
+    font-weight: 800;
+}
+
+#Presentacion h3 {
+    font-size: 1.3rem;
+    font-style: italic; /
+    font-weight: 700;
+    color: #4a5568;
+}
+
+#Presentacion p {
+    font-size: 1.1rem; 
+    text-align: justify; 
+    text-align-last: left; 
+    text-indent: 40px; 
+    letter-spacing: 0.5px; 
+    word-spacing: 1px; 
+    line-height: 1.8; 
+    margin-bottom: 20px;
+}
+
+/* 4. SECCIÓN DE CATEGORÍAS  */
+#Categoria ol {
+    background-color: #edf2f7;
+    padding: 25px 45px;
+    border-left: 5px solid #e53e3e; 
+    border-radius: 6px;
+}
+
+#Categoria ol li {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2d3748;
+    padding-left: 5px;
+}
+
+/* 5. TABLA DE INFORMACIÓN (Estadísticas) */
+#Tabla table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    
+}
+
+/* Encabezados de la tabla  */
+#Tabla th {
+    background-color: #1a365d; 
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px; 
+    text-align: center;
+    border: 1px solid #cbd5e0; 
+}
+
+
+#Tabla td {
+    padding: 10px; 
+    text-align: left;
+    border: 1px solid #cbd5e0; 
+}
+
+.caja-destacada {
+    
+    background-color: #fff3cd; 
+    color: #856404;            
+    padding: 25px; 
+    border-top: 5px solid #ffc107;      
+    border-bottom: 5px dashed #b58100;  
+    border-left: 2px solid #ffc107;
+    border-right: 2px solid #ffc107;
+    border-radius: 12px;                               
+    margin: 40px auto;   
+    max-width: 600px;      
+    text-align: center;
+
+}
+
+.caja-overflow {
+
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #ffc107;
+    background-color: #fff3cd;
+    padding: 15px;
+    box-sizing: border-box; 
+     margin: 40px auto;   
+    max-width: 600px;                   
+    text-align: center;
+}
+
+.caja-normal, .caja-pre {
+    background-color: #f1f3f5;
+    border: 1px solid #adb5bd;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 400px; 
+     margin: 40px auto;  
+    max-width: 600px;                 
+    text-align: center;      
+}
+
+.caja-normal {
+    white-space: normal;
+}
+
+.caja-pre {
+    white-space: pre;
+}
+
+
+.tabla-align {
+    width: 100%;
+    max-width: 650px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+
+.tabla-align td {
+    height: 100px;
+    padding: 10px;
+}
+
+
+.fila-top td {
+    vertical-align: top;
+    background-color: #f8f9fa;
+}
+
+.fila-middle td {
+    vertical-align: middle;
+    background-color: #e9ecef;
+}
+
+.fila-bottom td {
+    vertical-align: bottom;
+    background-color: #dee2e6;
+}
+
+.tarjeta-mundial {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #e2f0d9;
+    border: 2px solid #385723;
+    padding: 15px;
+    max-width: 500px;
+}
